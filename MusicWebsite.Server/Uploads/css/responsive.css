@@ -1,0 +1,13 @@
+﻿@media (max-width: 600px) {
+    .genre-container {
+        grid-template-columns: 1fr;
+    }
+
+    .track-container {
+        flex-direction: column;
+    }
+
+    .track {
+        flex: 1 1 100%;
+    }
+}
