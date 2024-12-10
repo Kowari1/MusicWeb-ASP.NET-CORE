@@ -9,6 +9,6 @@ namespace MusicWebsite.Server.DTO
         public string Email { get; set; }
         public string Role { get; set; }
 
-        public ICollection<PlaylistDto>? Playlists { get; set; }
+        public ICollection<PlaylistDTO>? Playlists { get; set; }
     }
 }
