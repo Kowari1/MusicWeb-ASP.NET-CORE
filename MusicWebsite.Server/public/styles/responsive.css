@@ -10,4 +10,15 @@
     .track {
         flex: 1 1 100%;
     }
+
+    @media (max-width: 768px) {
+        .home-container {
+            flex-direction: column;
+        }
+
+        .genres-filter,
+        .tracks-list {
+            width: 100%;
+        }
+    }
 }
